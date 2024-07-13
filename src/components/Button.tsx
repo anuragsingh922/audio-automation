@@ -14,7 +14,7 @@ const Button = ({ children, onClick }: PropsType) => {
         fontSize: "1.2em",
         borderRadius: "5px",
         cursor: "pointer",
-        backgroundColor: "#D4D0CD",
+        backgroundColor: "black",
         color: "white",
         border: "none",
       }}
