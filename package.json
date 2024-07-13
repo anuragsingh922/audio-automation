@@ -1,6 +1,6 @@
 {
   "name": "audio-automation",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "type": "module",
   "description": "",
   "main": "dist/index.js",
@@ -19,5 +19,8 @@
     "react-dom": "^18.2.0",
     "rollup": "^4.12.0",
     "tslib": "^2.6.2"
+  },
+  "dependencies": {
+    "@deepgram/sdk": "^3.5.0"
   }
 }
