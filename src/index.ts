@@ -1,4 +1,8 @@
 import { useDeepgram } from './useDeepgram'
 
-export { useDeepgram }
+const fu = ()=>{
+    return "a";
+}
+
+export { useDeepgram , fu }
 export default useDeepgram

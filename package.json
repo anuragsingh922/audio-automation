@@ -1,6 +1,6 @@
 {
   "name": "audio-automation",
-  "version": "1.0.6",
+  "version": "1.0.30",
   "type": "module",
   "description": "",
   "main": "dist/index.js",
@@ -21,6 +21,7 @@
     "tslib": "^2.6.2"
   },
   "dependencies": {
-    "@deepgram/sdk": "^3.5.0"
+    "@deepgram/sdk": "^3.5.0",
+    "ws": "^8.18.0"
   }
 }

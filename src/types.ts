@@ -1,5 +1,5 @@
 export type UseDeepgramConfig = {
-  apiKey?: string
+  apiKey: string
   autoStart?: boolean
   endpointing?: number
   deepgramConfig?: DeepgramApiConfig
@@ -7,7 +7,7 @@ export type UseDeepgramConfig = {
   onTranscribe?: (blob: Blob) => Promise<useDeepgramTranscript>
 }
 
-export const defaultStopTimeout = 5_000;
+export const defaultStopTimeout = 300;
 
 export type useDeepgramTranscript = {
   text?: string

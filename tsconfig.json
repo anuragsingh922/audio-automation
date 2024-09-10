@@ -1,16 +1,42 @@
+// {
+//   "compilerOptions": {
+//     "jsx": "react",
+//     "target": "ES2020",
+//     "module": "ESNext",
+//     "declaration": true,
+//     "declarationDir": "dist",
+//     "strict": true,
+//     "moduleResolution": "node",
+//     "baseUrl": "./",
+//     "paths": {
+//       "@deepgram/sdk": ["node_modules/@deepgram/sdk"]
+//     }
+//   }
+    
+// }
 {
   "compilerOptions": {
-    "jsx": "react",
-    "target": "ES2020",
-    "module": "ESNext",
     "declaration": true,
-    "declarationDir": "dist",
+    "target": "ES2020",
+    "jsx": "react",
+    "lib": ["esnext", "dom"],
     "strict": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
     "moduleResolution": "node",
+    "outDir": "./dist",
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "rootDir": "src",
+    "emitDeclarationOnly": true,
+    "strictPropertyInitialization": false,
     "baseUrl": "./",
     "paths": {
       "@deepgram/sdk": ["node_modules/@deepgram/sdk"]
     }
-  }
-    
+  },
+  "include": [
+    "src/**/*",
+    "lib/types.d.ts" // declaration file path
+  ]
 }
